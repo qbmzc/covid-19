@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1anVq7SlXMwPhxRbF1wEwUqkdOs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.covid_baidu_news">
+    <configuration name="chinacdc_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/chinacdc_news.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chinacdc_news_yw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/chinacdc_news_yw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="covid-data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/covid-data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="covid-news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/covid-news.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="covid_baidu_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/covid_baidu_news.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.covid_baidu_news" />
+        <item itemvalue="Python.covid-data" />
+        <item itemvalue="Python.chinacdc_news_yw" />
+        <item itemvalue="Python.covid-news" />
+        <item itemvalue="Python.chinacdc_news" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="" />
+      <created>1587371532980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587371532980</updated>
+      <workItem from="1587371536186" duration="24327000" />
+      <workItem from="1587552643041" duration="27084000" />
+      <workItem from="1587950533497" duration="3231000" />
+      <workItem from="1588571386832" duration="2119000" />
+      <workItem from="1588582081508" duration="351000" />
+      <workItem from="1588588566285" duration="7039000" />
+      <workItem from="1588737286053" duration="4781000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="474" key="GridCell.Tab.0.bottom" timestamp="1588748891259">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1587543315399" />
+    <state width="1874" height="474" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588748891259" />
+    <state width="1874" height="474" key="GridCell.Tab.0.center" timestamp="1588748891258">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2514" height="396" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1587543315399" />
+    <state width="1874" height="474" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588748891258" />
+    <state width="1874" height="474" key="GridCell.Tab.0.left" timestamp="1588748891258">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2514" height="396" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1587543315398" />
+    <state width="1874" height="474" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588748891258" />
+    <state width="1874" height="474" key="GridCell.Tab.0.right" timestamp="1588748891259">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="2514" height="396" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1587543315399" />
+    <state width="1874" height="474" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588748891259" />
+    <state width="1874" height="367" key="GridCell.Tab.1.bottom" timestamp="1588139962993">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="367" key="GridCell.Tab.1.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
+    <state width="1874" height="367" key="GridCell.Tab.1.center" timestamp="1588139962993">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="367" key="GridCell.Tab.1.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
+    <state width="1874" height="367" key="GridCell.Tab.1.left" timestamp="1588139962993">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="367" key="GridCell.Tab.1.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
+    <state width="1874" height="367" key="GridCell.Tab.1.right" timestamp="1588139962993">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="367" key="GridCell.Tab.1.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
+    <state x="3046" y="175" key="SettingsEditor" timestamp="1587371921706">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3046" y="175" key="SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1587371921706" />
+    <state x="3042" y="249" width="945" height="578" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587552503849">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3042" y="249" width="945" height="578" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1587552503849" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/covid_19$covid_news.coverage" NAME="covid-news Coverage Results" MODIFIED="1588572227996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_req.coverage" NAME="covid-data Coverage Results" MODIFIED="1587528095101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$disease_foreign.coverage" NAME="disease_foreign Coverage Results" MODIFIED="1587452535523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$bs4_test.coverage" NAME="bs4_test Coverage Results" MODIFIED="1587541315493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_data.coverage" NAME="covid-data Coverage Results" MODIFIED="1588645270956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news_yw.coverage" NAME="chinacdc_news_yw Coverage Results" MODIFIED="1588594837932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1588748891228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$str_test.coverage" NAME="str_test Coverage Results" MODIFIED="1587692668719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news.coverage" NAME="chinacdc_news Coverage Results" MODIFIED="1587707247016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+</project>
