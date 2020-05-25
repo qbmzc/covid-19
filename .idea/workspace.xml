@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/covid_baidu_news_gwyq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sqlfile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chinacdc_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chinacdc_news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chinacdc_news_yw.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chinacdc_news_yw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/covid_baidu_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,18 +184,34 @@
       <workItem from="1589515041062" duration="1846000" />
       <workItem from="1589620539559" duration="770000" />
       <workItem from="1589958843970" duration="1252000" />
-      <workItem from="1590371441160" duration="1621000" />
+      <workItem from="1590371441160" duration="2564000" />
     </task>
+    <task id="LOCAL-00001" summary="333">
+      <created>1590373322211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590373322211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="333" />
+    <option name="LAST_COMMIT_MESSAGE" value="333" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3253" y="288" width="524" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590373224783">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="3253" y="288" width="524" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373224783" />
+    <state x="3048" y="105" width="933" height="865" key="CommitChangelistDialog2" timestamp="1590373322002">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3048" y="105" width="933" height="865" key="CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373322002" />
     <state width="1874" height="360" key="GridCell.Tab.0.bottom" timestamp="1590373208706">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
@@ -243,6 +252,10 @@
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="3046" y="175" key="SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1587371921706" />
+    <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1590373324029">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373324029" />
     <state x="3263" y="460" width="513" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588750609223">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>

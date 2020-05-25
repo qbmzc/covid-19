@@ -59,7 +59,7 @@ def get_data(url):
 # lastUpdateTime = str(datetime.date.today())  #
 directory = "/data/Space/covid/baidu/"  # 定义数据保存路径
 
-
+# 图片下载
 def download_img(image_url):
     headers = {
         'Connection': 'keep-alive',
