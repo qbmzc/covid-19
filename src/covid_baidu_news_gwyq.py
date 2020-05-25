@@ -8,11 +8,12 @@ import random
 from docx import Document
 from docx.shared import Inches
 
+
 # 肺炎
 # 新冠肺炎国外疫情
 
 def getData():
-    url = "https://opendata.baidu.com/data/inner?tn=reserved_all_res_tn&dspName=iphone&from_sf=1&dsp=iphone&resource_id=28565&alr=1&query=肺炎"
+    url = "https://opendata.baidu.com/data/inner?tn=reserved_all_res_tn&dspName=iphone&from_sf=1&dsp=iphone&resource_id=28565&alr=1&query=新冠肺炎国外疫情"
     headers = {
         'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 '
                       'Safari/537.36 '
@@ -57,7 +58,7 @@ def get_data(url):
 # print(data_news)
 
 # lastUpdateTime = str(datetime.date.today())  #
-directory = "/data/Space/covid/baidu/"  # 定义数据保存路径
+directory = "/data/Space/covid/baidu/gwyq/"  # 定义数据保存路径
 
 
 def download_img(image_url):
@@ -101,8 +102,7 @@ def get_news(req_url, eventDescription, eventTime):
 
         download_img(ssrc)
         doc.add_picture('./img.jpg', width=Inches(5.0), height=Inches(5.0))
-    doc.save(directory + news_date + "_" + news_title + '.docx')
-
+    doc.save(directory + news_date + "_" + news_title.replace("/", "_") + '.docx') # 标题中 不能存在`/`
 
 if __name__ == '__main__':
     url_list = getEventUrl(getData())
@@ -110,5 +110,5 @@ if __name__ == '__main__':
         eventUrl = urls['eventUrl']
         eventDescription = urls['eventDescription']
         eventTime = urls['eventTime']
-        print(eventUrl+eventDescription+eventTime)
+        print(eventUrl + eventDescription + eventTime)
         get_news(eventUrl, eventDescription, eventTime)

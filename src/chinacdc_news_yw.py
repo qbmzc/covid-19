@@ -95,7 +95,7 @@ def download_img(image_url):
 
 
 if __name__ == '__main__':
-    for i in range(7, 13):
+    for i in range(1, 3):
         url = gwxx_url + '/index_' + str(i) + ".html"
         print(url)
         time.sleep(2)

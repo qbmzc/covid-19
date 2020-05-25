@@ -2,7 +2,6 @@ import requests
 import json
 import datetime
 import pandas as pd
-import csv
 from bs4 import BeautifulSoup
 
 
@@ -21,7 +20,6 @@ data_news = getData()
 
 lastUpdateTime = str(datetime.date.today())  #
 directory = "/data/Space/covid/news/"  # 定义数据保存路径
-
 
 # 获取中国历史数据及每日新增数据
 chinaDayList = pd.DataFrame(data_news["items"])  # 中国历史数据
@@ -46,7 +44,6 @@ def get_news(url):
         for p in pp:
             news_str += p.get_text(strip=True)
         return news_str
-
 
 
 news_163 = data_news["items"]
