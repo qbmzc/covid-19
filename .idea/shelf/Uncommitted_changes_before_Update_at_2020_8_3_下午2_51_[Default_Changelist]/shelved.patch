@@ -1,0 +1,199 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"aad0d0fd-c4e3-4224-8b18-03fa40daca00\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/covid-19.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/covid-19.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_TAGS\">\n      <GitPushTagMode>\n        <option name=\"argument\" value=\"--tags\" />\n        <option name=\"title\" value=\"All\" />\n      </GitPushTagMode>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"UPDATE_TYPE\" value=\"MERGE\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1anVq7SlXMwPhxRbF1wEwUqkdOs\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python.covid-data\">\n    <configuration name=\"chinacdc_news\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"covid-19\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/chinacdc_news.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"chinacdc_news_yw\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"covid-19\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/chinacdc_news_yw.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"covid-data\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"covid-19\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/covid-data.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"covid_baidu_news\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"covid-19\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/covid_baidu_news.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"covid_baidu_news_gwyq\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"covid-19\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/covid_baidu_news_gwyq.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.covid-data\" />\n        <item itemvalue=\"Python.covid_baidu_news_gwyq\" />\n        <item itemvalue=\"Python.covid_baidu_news\" />\n        <item itemvalue=\"Python.chinacdc_news\" />\n        <item itemvalue=\"Python.chinacdc_news_yw\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"aad0d0fd-c4e3-4224-8b18-03fa40daca00\" name=\"Default Changelist\" comment=\"\" />\n      <created>1587371532980</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1587371532980</updated>\n      <workItem from=\"1587371536186\" duration=\"24327000\" />\n      <workItem from=\"1587552643041\" duration=\"27084000\" />\n      <workItem from=\"1587950533497\" duration=\"3231000\" />\n      <workItem from=\"1588571386832\" duration=\"2119000\" />\n      <workItem from=\"1588582081508\" duration=\"351000\" />\n      <workItem from=\"1588588566285\" duration=\"7039000\" />\n      <workItem from=\"1588737286053\" duration=\"6371000\" />\n      <workItem from=\"1589188169615\" duration=\"6281000\" />\n      <workItem from=\"1589515041062\" duration=\"1846000\" />\n      <workItem from=\"1589620539559\" duration=\"770000\" />\n      <workItem from=\"1589958843970\" duration=\"1252000\" />\n      <workItem from=\"1590371441160\" duration=\"3228000\" />\n      <workItem from=\"1590978473986\" duration=\"1591000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"333\">\n      <created>1590373322211</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1590373322211</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"333\">\n      <created>1590374067552</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1590374067552</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"333\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"333\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"3253\" y=\"288\" width=\"524\" height=\"499\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1590373224783\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"3253\" y=\"288\" width=\"524\" height=\"499\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373224783\" />\n    <state x=\"651\" y=\"169\" width=\"933\" height=\"865\" key=\"CommitChangelistDialog2\" timestamp=\"1590374067440\">\n      <screen x=\"0\" y=\"32\" width=\"2560\" height=\"1408\" />\n    </state>\n    <state x=\"651\" y=\"169\" key=\"CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408\" timestamp=\"1590374067440\" />\n    <state x=\"3048\" y=\"105\" width=\"933\" height=\"865\" key=\"CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373322002\" />\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1590980168171\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590980168171\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408\" timestamp=\"1590568446753\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373208706\" />\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.center\" timestamp=\"1590980168171\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590980168171\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408\" timestamp=\"1590568446752\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373208705\" />\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.left\" timestamp=\"1590980168171\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590980168171\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408\" timestamp=\"1590568446752\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373208705\" />\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.right\" timestamp=\"1590980168171\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1870\" height=\"286\" key=\"GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590980168171\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408\" timestamp=\"1590568446753\" />\n    <state width=\"1874\" height=\"360\" key=\"GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373208705\" />\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1588139962993\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1588139962993\" />\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.center\" timestamp=\"1588139962993\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1588139962993\" />\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.left\" timestamp=\"1588139962993\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1588139962993\" />\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.right\" timestamp=\"1588139962993\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1874\" height=\"367\" key=\"GridCell.Tab.1.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1588139962993\" />\n    <state x=\"3046\" y=\"175\" key=\"SettingsEditor\" timestamp=\"1590978725658\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"3046\" y=\"175\" key=\"SettingsEditor/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590978725658\" />\n    <state x=\"3046\" y=\"175\" key=\"SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1587371921706\" />\n    <state x=\"740\" y=\"392\" width=\"800\" height=\"524\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1590374127635\">\n      <screen x=\"0\" y=\"32\" width=\"2560\" height=\"1408\" />\n    </state>\n    <state x=\"740\" y=\"392\" width=\"800\" height=\"524\" key=\"Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408\" timestamp=\"1590374127635\" />\n    <state x=\"3115\" y=\"276\" width=\"800\" height=\"524\" key=\"Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1590373324029\" />\n    <state x=\"3263\" y=\"460\" width=\"513\" height=\"160\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1588750609223\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"3263\" y=\"460\" width=\"513\" height=\"160\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1588750609223\" />\n    <state x=\"3042\" y=\"249\" width=\"945\" height=\"578\" key=\"com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2\" timestamp=\"1587552503849\">\n      <screen x=\"2560\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"3042\" y=\"249\" width=\"945\" height=\"578\" key=\"com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080\" timestamp=\"1587552503849\" />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/covid_19$covid_req.coverage\" NAME=\"covid-data Coverage Results\" MODIFIED=\"1587528095101\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$disease_foreign.coverage\" NAME=\"disease_foreign Coverage Results\" MODIFIED=\"1587452535523\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$covid_baidu_news_gwyq.coverage\" NAME=\"covid_baidu_news_gwyq Coverage Results\" MODIFIED=\"1590979987245\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$str_test.coverage\" NAME=\"str_test Coverage Results\" MODIFIED=\"1587692668719\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$covid_data.coverage\" NAME=\"covid-data Coverage Results\" MODIFIED=\"1590980168163\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$sqlfile.coverage\" NAME=\"sqlfile Coverage Results\" MODIFIED=\"1589341884784\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$chinacdc_news.coverage\" NAME=\"chinacdc_news Coverage Results\" MODIFIED=\"1590979963888\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$chinacdc_news_yw.coverage\" NAME=\"chinacdc_news_yw Coverage Results\" MODIFIED=\"1589958880615\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$covid_baidu_news.coverage\" NAME=\"covid_baidu_news Coverage Results\" MODIFIED=\"1590979984092\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$covid_news.coverage\" NAME=\"covid-news Coverage Results\" MODIFIED=\"1588572227996\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n    <SUITE FILE_PATH=\"coverage/covid_19$bs4_test.coverage\" NAME=\"bs4_test Coverage Results\" MODIFIED=\"1587541315493\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision ac13f0ca66011747dfa96f7eb072a50e221e20ca)
++++ .idea/workspace.xml	(date 1596437399049)
+@@ -1,10 +1,37 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:old-origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/covid-19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/covid-19.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="333">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img.jpg" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -49,7 +76,7 @@
+       <recent name="$PROJECT_DIR$/src" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.covid-data">
++  <component name="RunManager" selected="Python.covid_baidu_news_gwyq">
+     <configuration name="chinacdc_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="covid-19" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -162,11 +189,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.covid-data" />
+         <item itemvalue="Python.covid_baidu_news_gwyq" />
+         <item itemvalue="Python.covid_baidu_news" />
++        <item itemvalue="Python.covid-data" />
++        <item itemvalue="Python.chinacdc_news_yw" />
+         <item itemvalue="Python.chinacdc_news" />
+-        <item itemvalue="Python.chinacdc_news_yw" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -192,7 +219,12 @@
+       <workItem from="1589620539559" duration="770000" />
+       <workItem from="1589958843970" duration="1252000" />
+       <workItem from="1590371441160" duration="3228000" />
+-      <workItem from="1590978473986" duration="1591000" />
++      <workItem from="1590978473986" duration="2204000" />
++      <workItem from="1591077965594" duration="2595000" />
++      <workItem from="1591599449500" duration="630000" />
++      <workItem from="1591683422102" duration="1305000" />
++      <workItem from="1591687218630" duration="613000" />
++      <workItem from="1596435622473" duration="1104000" />
+     </task>
+     <task id="LOCAL-00001" summary="333">
+       <created>1590373322211</created>
+@@ -208,12 +240,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1590374067552</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="333">
++      <created>1590980192019</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1590980192019</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="2" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="333" />
+     <option name="LAST_COMMIT_MESSAGE" value="333" />
+@@ -228,28 +279,28 @@
+     </state>
+     <state x="651" y="169" key="CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590374067440" />
+     <state x="3048" y="105" width="933" height="865" key="CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373322002" />
+-    <state width="1870" height="286" key="GridCell.Tab.0.bottom" timestamp="1590980168171">
++    <state width="1870" height="405" key="GridCell.Tab.0.bottom" timestamp="1591686020465">
+       <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1870" height="286" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
++    <state width="1870" height="405" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1591686020465" />
+     <state width="1874" height="360" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446753" />
+     <state width="1874" height="360" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373208706" />
+-    <state width="1870" height="286" key="GridCell.Tab.0.center" timestamp="1590980168171">
++    <state width="1870" height="405" key="GridCell.Tab.0.center" timestamp="1591686020465">
+       <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1870" height="286" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
++    <state width="1870" height="405" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1591686020465" />
+     <state width="1874" height="360" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446752" />
+     <state width="1874" height="360" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373208705" />
+-    <state width="1870" height="286" key="GridCell.Tab.0.left" timestamp="1590980168171">
++    <state width="1870" height="405" key="GridCell.Tab.0.left" timestamp="1591686020465">
+       <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1870" height="286" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
++    <state width="1870" height="405" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1591686020465" />
+     <state width="1874" height="360" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446752" />
+     <state width="1874" height="360" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373208705" />
+-    <state width="1870" height="286" key="GridCell.Tab.0.right" timestamp="1590980168171">
++    <state width="1870" height="405" key="GridCell.Tab.0.right" timestamp="1591686020465">
+       <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1870" height="286" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
++    <state width="1870" height="405" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1591686020465" />
+     <state width="1874" height="360" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446753" />
+     <state width="1874" height="360" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373208705" />
+     <state width="1874" height="367" key="GridCell.Tab.1.bottom" timestamp="1588139962993">
+@@ -272,31 +323,27 @@
+       <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
+     <state x="3046" y="175" key="SettingsEditor/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590978725658" />
+-    <state x="3046" y="175" key="SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1587371921706" />
+-    <state x="740" y="392" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1590374127635">
+-      <screen x="0" y="32" width="2560" height="1408" />
++    <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1590980193909">
++      <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
++    <state x="3115" y="276" key="Vcs.Push.Dialog.v2/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980193909" />
+     <state x="740" y="392" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590374127635" />
+     <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373324029" />
+-    <state x="3263" y="460" width="513" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588750609223">
++    <state x="3263" y="460" width="513" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596435626128">
+       <screen x="2560" y="0" width="1920" height="1080" />
+     </state>
+-    <state x="3263" y="460" width="513" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588750609223" />
+-    <state x="3042" y="249" width="945" height="578" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587552503849">
+-      <screen x="2560" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="3042" y="249" width="945" height="578" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1587552503849" />
++    <state x="3263" y="460" width="513" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596435626128" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/covid_19$covid_req.coverage" NAME="covid-data Coverage Results" MODIFIED="1587528095101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+     <SUITE FILE_PATH="coverage/covid_19$disease_foreign.coverage" NAME="disease_foreign Coverage Results" MODIFIED="1587452535523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_gwyq.coverage" NAME="covid_baidu_news_gwyq Coverage Results" MODIFIED="1590979987245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
++    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_gwyq.coverage" NAME="covid_baidu_news_gwyq Coverage Results" MODIFIED="1591684389149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+     <SUITE FILE_PATH="coverage/covid_19$str_test.coverage" NAME="str_test Coverage Results" MODIFIED="1587692668719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+-    <SUITE FILE_PATH="coverage/covid_19$covid_data.coverage" NAME="covid-data Coverage Results" MODIFIED="1590980168163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
++    <SUITE FILE_PATH="coverage/covid_19$covid_data.coverage" NAME="covid-data Coverage Results" MODIFIED="1591683450031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+     <SUITE FILE_PATH="coverage/covid_19$sqlfile.coverage" NAME="sqlfile Coverage Results" MODIFIED="1589341884784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+-    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news.coverage" NAME="chinacdc_news Coverage Results" MODIFIED="1590979963888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+-    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news_yw.coverage" NAME="chinacdc_news_yw Coverage Results" MODIFIED="1589958880615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1590979984092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
++    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news.coverage" NAME="chinacdc_news Coverage Results" MODIFIED="1591408756600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
++    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news_yw.coverage" NAME="chinacdc_news_yw Coverage Results" MODIFIED="1591408761407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
++    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1591684385932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+     <SUITE FILE_PATH="coverage/covid_19$covid_news.coverage" NAME="covid-news Coverage Results" MODIFIED="1588572227996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+     <SUITE FILE_PATH="coverage/covid_19$bs4_test.coverage" NAME="bs4_test Coverage Results" MODIFIED="1587541315493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+   </component>
