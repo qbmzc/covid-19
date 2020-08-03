@@ -105,9 +105,9 @@ def get_news(req_url, eventDescription, eventTime):
     # 创建word文档
     news = {
         'title': str(news_title),
-        'newDate': str(news_date),
+        'newsDate': str(news_date),
         'content': str(news_content),
-        'category': 'news'
+        'category': '新闻'
     }
     print(news)
     search_url = 'http://127.0.0.1:15002/covid/news/save'

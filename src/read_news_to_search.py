@@ -7,9 +7,12 @@ import time
 import random
 from docx import Document
 from docx.shared import Inches
+import os
+
+path = "/data/Space/covid/baidu"
 
 
-def get_news(req_url, eventDescription, eventTime):
+def save_to_elasticsearch(news_title, news_date, news_content):
     headers = {
         'Connection': 'keep-alive',
         'Pragma': 'no-cache',
@@ -20,27 +23,11 @@ def get_news(req_url, eventDescription, eventTime):
         'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6',
         'Content-Type': 'application/json'
     }
-    doc = Document('/data/Space/covid/baidu/2020-07-11 15:24:52_国家卫健委：本次聚集性疫情新增本土确诊病例占全国新增确诊病例68%.docx')
-    for d in doc.paragraph:
-        print(d)
-    doc.add_heading()
-    doc.add_paragraph(news_date)
-    doc.add_paragraph(news_content)
-    for img in data.find_all('img', class_='large'):
-        ssrc = img.get('src')
-
-        print(ssrc)
-
-        download_img(ssrc)
-        doc.add_picture('./img.jpg', width=Inches(5.0), height=Inches(5.0))
-    doc.save(directory + news_date + "_" + news_title.replace("/", "_") + '.docx')  # 标题中 不能存在`/`
-    # 保存到elasticsearch
-    # 创建word文档
     news = {
         'title': str(news_title),
-        'newDate': str(news_date),
+        'newsDate': str(news_date),
         'content': str(news_content),
-        'category': 'news'
+        'category': '国内疫情'
     }
     print(news)
     search_url = 'http://127.0.0.1:15002/covid/news/save'
@@ -48,5 +35,20 @@ def get_news(req_url, eventDescription, eventTime):
     print(resp.status_code)
 
 
+def get_news():
+    files = os.listdir(path)
+    for file in files:
+        if not os.path.isdir(file):
+            print(file)
+            doc = Document(path + "/" + file)
+            news_title = doc.paragraphs[0].text
+            news_date = doc.paragraphs[1].text
+            news_content = doc.paragraphs[2].text
+            save_to_elasticsearch(news_title,news_date,news_content)
+
+    # 保存到elasticsearch
+    # 创建word文档
+
+
 if __name__ == '__main__':
-        get_news(eventUrl, eventDescription, eventTime)
+    get_news()
