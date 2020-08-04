@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:old-origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/covid-19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/covid-19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="feat: 保存到elasticsearch中">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/covid_baidu_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/covid_baidu_news_gwyq.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news_gwyq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/covid_baidu_news_to_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news_to_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/read_news_to_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/read_news_to_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +87,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.covid_baidu_news_to_search">
+    <configuration name="covid_baidu_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/covid_baidu_news.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="covid_baidu_news_gwyq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covid-19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +178,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.covid_baidu_news_to_search" />
+        <item itemvalue="Python.covid_baidu_news" />
         <item itemvalue="Python.read_news_to_search" />
         <item itemvalue="Python.covid_baidu_news_gwyq" />
       </list>
@@ -157,7 +211,7 @@
       <workItem from="1594971013842" duration="1181000" />
       <workItem from="1595830569130" duration="4326000" />
       <workItem from="1596090023937" duration="3515000" />
-      <workItem from="1596437522417" duration="4524000" />
+      <workItem from="1596437522417" duration="8507000" />
     </task>
     <task id="LOCAL-00001" summary="333">
       <created>1590373322211</created>
@@ -173,15 +227,53 @@
       <option name="project" value="LOCAL" />
       <updated>1590374067552</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 保存到elasticsearch中">
+      <created>1596456484378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596456484378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 保存到elasticsearch中">
+      <created>1596456491074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596456491074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="333" />
-    <option name="LAST_COMMIT_MESSAGE" value="333" />
+    <MESSAGE value="feat: 保存到elasticsearch中" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 保存到elasticsearch中" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2978" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596437536615">
@@ -201,58 +293,58 @@
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="3541" y="406" width="424" height="480" key="FileChooserDialogImpl/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596437623437" />
-    <state width="1870" height="406" key="GridCell.Tab.0.bottom" timestamp="1596454603865">
+    <state width="1870" height="494" key="GridCell.Tab.0.bottom" timestamp="1596506644889">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
     <state width="2510" height="396" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
     <state width="1870" height="286" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
     <state width="1874" height="360" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446753" />
-    <state width="1870" height="406" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596454603865" />
+    <state width="1870" height="494" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
     <state width="2512" height="286" key="GridCell.Tab.0.bottom/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="406" key="GridCell.Tab.0.center" timestamp="1596454603865">
+    <state width="1870" height="494" key="GridCell.Tab.0.center" timestamp="1596506644889">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.center/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
     <state width="2510" height="396" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
     <state width="1870" height="286" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
     <state width="1874" height="360" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446752" />
-    <state width="1870" height="406" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596454603865" />
+    <state width="1870" height="494" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
     <state width="2512" height="286" key="GridCell.Tab.0.center/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="406" key="GridCell.Tab.0.left" timestamp="1596454603864">
+    <state width="1870" height="494" key="GridCell.Tab.0.left" timestamp="1596506644889">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.left/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
     <state width="2510" height="396" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
     <state width="1870" height="286" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
     <state width="1874" height="360" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446752" />
-    <state width="1870" height="406" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596454603864" />
+    <state width="1870" height="494" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
     <state width="2512" height="286" key="GridCell.Tab.0.left/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="406" key="GridCell.Tab.0.right" timestamp="1596454603865">
+    <state width="1870" height="494" key="GridCell.Tab.0.right" timestamp="1596506644889">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.right/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
     <state width="2510" height="396" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
     <state width="1870" height="286" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
     <state width="1874" height="360" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446753" />
-    <state width="1870" height="406" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596454603865" />
+    <state width="1870" height="494" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
     <state width="2512" height="286" key="GridCell.Tab.0.right/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1874" height="367" key="GridCell.Tab.1.bottom" timestamp="1588139962993">
+    <state width="1870" height="353" key="GridCell.Tab.1.bottom" timestamp="1596504498016">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="367" key="GridCell.Tab.1.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
-    <state width="1874" height="367" key="GridCell.Tab.1.center" timestamp="1588139962993">
+    <state width="1870" height="353" key="GridCell.Tab.1.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
+    <state width="1870" height="353" key="GridCell.Tab.1.center" timestamp="1596504498016">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="367" key="GridCell.Tab.1.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
-    <state width="1874" height="367" key="GridCell.Tab.1.left" timestamp="1588139962993">
+    <state width="1870" height="353" key="GridCell.Tab.1.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
+    <state width="1870" height="353" key="GridCell.Tab.1.left" timestamp="1596504498016">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="367" key="GridCell.Tab.1.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
-    <state width="1874" height="367" key="GridCell.Tab.1.right" timestamp="1588139962993">
+    <state width="1870" height="353" key="GridCell.Tab.1.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
+    <state width="1870" height="353" key="GridCell.Tab.1.right" timestamp="1596504498016">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="367" key="GridCell.Tab.1.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588139962993" />
+    <state width="1870" height="353" key="GridCell.Tab.1.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
     <state x="3046" y="176" key="SettingsEditor" timestamp="1596437751612">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
@@ -260,11 +352,11 @@
     <state x="648" y="257" key="SettingsEditor/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1594970778576" />
     <state x="3046" y="175" key="SettingsEditor/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590978725658" />
     <state x="3046" y="176" key="SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596437751612" />
-    <state x="740" y="392" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1590374127635">
-      <screen x="0" y="32" width="2560" height="1408" />
+    <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1596456574318">
+      <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="392" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590374127635" />
-    <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373324029" />
+    <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596456574318" />
     <state x="3263" y="460" width="513" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588750609223">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
@@ -275,12 +367,12 @@
     <state x="3307" y="413" width="903" height="470" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596437644915" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_to_search.coverage" NAME="covid_baidu_news_to_search Coverage Results" MODIFIED="1596454603843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_to_search.coverage" NAME="covid_baidu_news_to_search Coverage Results" MODIFIED="1596506644871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$covid_req.coverage" NAME="covid-data Coverage Results" MODIFIED="1587528095101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_gwyq.coverage" NAME="covid_baidu_news_gwyq Coverage Results" MODIFIED="1596452891932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$covid_data.coverage" NAME="covid-data Coverage Results" MODIFIED="1590980168163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$chinacdc_news_yw.coverage" NAME="chinacdc_news_yw Coverage Results" MODIFIED="1589958880615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1594971559995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1596503703838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$covid_news.coverage" NAME="covid-news Coverage Results" MODIFIED="1588572227996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$read_news_to_search.coverage" NAME="read_news_to_search Coverage Results" MODIFIED="1596454173384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$disease_foreign.coverage" NAME="disease_foreign Coverage Results" MODIFIED="1587452535523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />

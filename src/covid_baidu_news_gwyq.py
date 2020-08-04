@@ -69,7 +69,7 @@ def download_img(image_url):
     del r
 
 
-def get_news(req_url, eventDescription, eventTime):
+def get_news(req_url, eventDescription, eventTime, siteName):
     data = get_data(req_url)
     a_list = data.find_all('span', class_='bjh-p')
     news_content = ''
@@ -88,7 +88,8 @@ def get_news(req_url, eventDescription, eventTime):
         'title': str(news_title),
         'newsDate': str(news_date),
         'content': str(news_content),
-        'category': '国外疫情'
+        'category': '国外疫情',
+        'source': siteName
     }
     print(news)
     search_url = 'http://127.0.0.1:15002/covid/news/save'
@@ -111,5 +112,7 @@ if __name__ == '__main__':
         eventUrl = urls['eventUrl']
         eventDescription = urls['eventDescription']
         eventTime = urls['eventTime']
-        print(eventUrl + eventDescription + eventTime)
-        get_news(eventUrl, eventDescription, eventTime)
+        siteName = urls['siteName']
+        print(siteName)
+        print(eventUrl + "_" + eventDescription + "_" + eventTime)
+        get_news(eventUrl, eventDescription, eventTime, siteName)

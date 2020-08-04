@@ -110,5 +110,7 @@ if __name__ == '__main__':
         eventUrl = urls['eventUrl']
         eventDescription = urls['eventDescription']
         eventTime = urls['eventTime']
-        print(eventUrl+eventDescription+eventTime)
+        siteName = urls['siteName']
+        print(siteName)
+        print(eventUrl+"_"+eventDescription+"_"+eventTime)
         get_news(eventUrl, eventDescription, eventTime)
