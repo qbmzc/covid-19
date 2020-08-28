@@ -5,8 +5,8 @@ import json
 from bs4 import BeautifulSoup
 import time
 import random
-from docx import Document
-from docx.shared import Inches
+# from docx import Document
+# from docx.shared import Inches
 
 
 # 肺炎

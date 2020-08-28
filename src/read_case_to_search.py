@@ -1,4 +1,4 @@
-# 将病历中的数据导入到elasticsearch
+# 百度新闻接口数据爬取
 
 import requests
 import json
@@ -9,7 +9,7 @@ from docx import Document
 from docx.shared import Inches
 import os
 
-path = "/data/Cong/新增病历/儿科"
+path = "/data/Space/covid/baidu"
 
 
 def save_to_elasticsearch(news_title, news_date, news_content):
@@ -27,7 +27,7 @@ def save_to_elasticsearch(news_title, news_date, news_content):
         'title': str(news_title),
         'newsDate': str(news_date),
         'content': str(news_content),
-        'category': '儿科'
+        'category': '国内疫情'
     }
     print(news)
     search_url = 'http://127.0.0.1:15002/covid/news/save'
@@ -44,8 +44,8 @@ def get_news():
             news_title = doc.paragraphs[0].text
             news_date = doc.paragraphs[1].text
             news_content = doc.paragraphs[2].text
-           #save_to_elasticsearch(news_title,news_date,news_content)
-            print(news_title +news_date)
+            save_to_elasticsearch(news_title,news_date,news_content)
+
     # 保存到elasticsearch
     # 创建word文档
 

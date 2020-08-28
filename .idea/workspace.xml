@@ -35,12 +35,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="feat: 保存到elasticsearch中">
+    <list default="true" id="aad0d0fd-c4e3-4224-8b18-03fa40daca00" name="Default Changelist" comment="feat: 添加新闻来源">
+      <change afterPath="$PROJECT_DIR$/src/read_case_to_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_8_3_2_51__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_8_3_下午2_51_[Default_Changelist]/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_8_3_下午2_51_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/covid_baidu_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/covid_baidu_news_gwyq.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news_gwyq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/covid_baidu_news_to_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/covid_baidu_news_to_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/read_news_to_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/read_news_to_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +68,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="JupyterTrust" id="a5fe70cb-5614-4651-8f65-2a445a2a932a" />
   <component name="ProjectId" id="1anVq7SlXMwPhxRbF1wEwUqkdOs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,14 +84,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.covid_baidu_news_to_search">
+  <component name="RunManager" selected="Python.covid_baidu_news">
     <configuration name="covid_baidu_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covid-19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,13 +182,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.covid_baidu_news_to_search" />
         <item itemvalue="Python.covid_baidu_news" />
-        <item itemvalue="Python.read_news_to_search" />
         <item itemvalue="Python.covid_baidu_news_gwyq" />
+        <item itemvalue="Python.read_news_to_search" />
+        <item itemvalue="Python.covid_baidu_news_to_search" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -211,7 +217,18 @@
       <workItem from="1594971013842" duration="1181000" />
       <workItem from="1595830569130" duration="4326000" />
       <workItem from="1596090023937" duration="3515000" />
-      <workItem from="1596437522417" duration="8507000" />
+      <workItem from="1596437522417" duration="9312000" />
+      <workItem from="1596867547646" duration="638000" />
+      <workItem from="1597108990988" duration="1873000" />
+      <workItem from="1597217364640" duration="269000" />
+      <workItem from="1597290438929" duration="1055000" />
+      <workItem from="1597296991752" duration="1331000" />
+      <workItem from="1597299594120" duration="18000" />
+      <workItem from="1597403894102" duration="2822000" />
+      <workItem from="1597815424537" duration="658000" />
+      <workItem from="1597817426447" duration="2586000" />
+      <workItem from="1598319574888" duration="3000" />
+      <workItem from="1598594939052" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="333">
       <created>1590373322211</created>
@@ -241,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596456491074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 添加新闻来源">
+      <created>1596506762508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596506762508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -269,11 +293,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="333" />
     <MESSAGE value="feat: 保存到elasticsearch中" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 保存到elasticsearch中" />
+    <MESSAGE value="feat: 添加新闻来源" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加新闻来源" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2978" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596437536615">
@@ -289,96 +315,104 @@
     </state>
     <state x="651" y="169" key="CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590374067440" />
     <state x="3048" y="105" width="933" height="865" key="CommitChangelistDialog2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590373322002" />
-    <state x="3541" y="406" width="424" height="480" key="FileChooserDialogImpl" timestamp="1596437623437">
+    <state x="3541" y="406" width="468" height="480" key="FileChooserDialogImpl" timestamp="1597299610111">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state x="3541" y="406" width="424" height="480" key="FileChooserDialogImpl/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596437623437" />
-    <state width="1870" height="494" key="GridCell.Tab.0.bottom" timestamp="1596506644889">
+    <state x="3541" y="406" width="468" height="480" key="FileChooserDialogImpl/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1597299610111" />
+    <state width="1862" height="343" key="GridCell.Tab.0.bottom" timestamp="1598595038038">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
-    <state width="2510" height="396" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
-    <state width="1870" height="286" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
-    <state width="1874" height="360" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446753" />
-    <state width="1870" height="494" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
+    <state width="2502" height="281" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1597816081458" />
+    <state width="1862" height="343" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1597838961673" />
+    <state width="1342" height="259" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1597299339441" />
+    <state width="1862" height="343" key="GridCell.Tab.0.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1598595038038" />
     <state width="2512" height="286" key="GridCell.Tab.0.bottom/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="494" key="GridCell.Tab.0.center" timestamp="1596506644889">
+    <state width="2512" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.28.2560.1412@0.28.2560.1412" timestamp="1597635853796" />
+    <state width="2512" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.32.2560.1408@0.32.2560.1408" timestamp="1597454254437" />
+    <state width="1872" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.32.2560.1408@2560.0.1920.1080" timestamp="1597454215036" />
+    <state width="1862" height="343" key="GridCell.Tab.0.center" timestamp="1598595038037">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.center/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
-    <state width="2510" height="396" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
-    <state width="1870" height="286" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
-    <state width="1874" height="360" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446752" />
-    <state width="1870" height="494" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
+    <state width="2502" height="281" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1597816081458" />
+    <state width="1862" height="343" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1597838961673" />
+    <state width="1342" height="259" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1597299339441" />
+    <state width="1862" height="343" key="GridCell.Tab.0.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1598595038037" />
     <state width="2512" height="286" key="GridCell.Tab.0.center/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="494" key="GridCell.Tab.0.left" timestamp="1596506644889">
+    <state width="2512" height="285" key="GridCell.Tab.0.center/2560.0.1920.1080/0.28.2560.1412@0.28.2560.1412" timestamp="1597635853795" />
+    <state width="2512" height="285" key="GridCell.Tab.0.center/2560.0.1920.1080/0.32.2560.1408@0.32.2560.1408" timestamp="1597454254437" />
+    <state width="1872" height="285" key="GridCell.Tab.0.center/2560.0.1920.1080/0.32.2560.1408@2560.0.1920.1080" timestamp="1597454215035" />
+    <state width="1862" height="343" key="GridCell.Tab.0.left" timestamp="1598595038037">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.left/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
-    <state width="2510" height="396" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
-    <state width="1870" height="286" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
-    <state width="1874" height="360" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446752" />
-    <state width="1870" height="494" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
+    <state width="2502" height="281" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1597816081458" />
+    <state width="1862" height="343" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1597838961673" />
+    <state width="1342" height="259" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1597299339441" />
+    <state width="1862" height="343" key="GridCell.Tab.0.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1598595038037" />
     <state width="2512" height="286" key="GridCell.Tab.0.left/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="494" key="GridCell.Tab.0.right" timestamp="1596506644889">
+    <state width="2512" height="285" key="GridCell.Tab.0.left/2560.0.1920.1080/0.28.2560.1412@0.28.2560.1412" timestamp="1597635853795" />
+    <state width="2512" height="285" key="GridCell.Tab.0.left/2560.0.1920.1080/0.32.2560.1408@0.32.2560.1408" timestamp="1597454254436" />
+    <state width="1872" height="285" key="GridCell.Tab.0.left/2560.0.1920.1080/0.32.2560.1408@2560.0.1920.1080" timestamp="1597454215035" />
+    <state width="1862" height="343" key="GridCell.Tab.0.right" timestamp="1598595038037">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state width="2512" height="393" key="GridCell.Tab.0.right/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595835401112" />
-    <state width="2510" height="396" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1595064836145" />
-    <state width="1870" height="286" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590980168171" />
-    <state width="1874" height="360" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590568446753" />
-    <state width="1870" height="494" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596506644889" />
+    <state width="2502" height="281" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1597816081458" />
+    <state width="1862" height="343" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1597838961673" />
+    <state width="1342" height="259" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1597299339441" />
+    <state width="1862" height="343" key="GridCell.Tab.0.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1598595038037" />
     <state width="2512" height="286" key="GridCell.Tab.0.right/0.37.2560.1403/2560.0.1920.1080@0.37.2560.1403" timestamp="1596157874532" />
-    <state width="1870" height="353" key="GridCell.Tab.1.bottom" timestamp="1596504498016">
+    <state width="2512" height="285" key="GridCell.Tab.0.right/2560.0.1920.1080/0.28.2560.1412@0.28.2560.1412" timestamp="1597635853795" />
+    <state width="2512" height="285" key="GridCell.Tab.0.right/2560.0.1920.1080/0.32.2560.1408@0.32.2560.1408" timestamp="1597454254437" />
+    <state width="1872" height="285" key="GridCell.Tab.0.right/2560.0.1920.1080/0.32.2560.1408@2560.0.1920.1080" timestamp="1597454215035" />
+    <state width="1870" height="353" key="GridCell.Tab.1.bottom" timestamp="1596616727710">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1870" height="353" key="GridCell.Tab.1.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
-    <state width="1870" height="353" key="GridCell.Tab.1.center" timestamp="1596504498016">
+    <state width="1870" height="353" key="GridCell.Tab.1.bottom/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596616727710" />
+    <state width="1870" height="353" key="GridCell.Tab.1.center" timestamp="1596616727710">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1870" height="353" key="GridCell.Tab.1.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
-    <state width="1870" height="353" key="GridCell.Tab.1.left" timestamp="1596504498016">
+    <state width="1870" height="353" key="GridCell.Tab.1.center/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596616727710" />
+    <state width="1870" height="353" key="GridCell.Tab.1.left" timestamp="1596616727709">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1870" height="353" key="GridCell.Tab.1.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
-    <state width="1870" height="353" key="GridCell.Tab.1.right" timestamp="1596504498016">
+    <state width="1870" height="353" key="GridCell.Tab.1.left/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596616727709" />
+    <state width="1870" height="353" key="GridCell.Tab.1.right" timestamp="1596616727710">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state width="1870" height="353" key="GridCell.Tab.1.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596504498016" />
-    <state x="3046" y="176" key="SettingsEditor" timestamp="1596437751612">
+    <state width="1870" height="353" key="GridCell.Tab.1.right/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596616727710" />
+    <state x="3046" y="176" width="947" height="731" key="SettingsEditor" timestamp="1597291049550">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="648" y="228" key="SettingsEditor/0.0.2560.1403/2560.0.1920.1080@0.0.2560.1403" timestamp="1595831333346" />
     <state x="648" y="257" key="SettingsEditor/0.28.2560.1412/2560.0.1920.1080@0.28.2560.1412" timestamp="1594970778576" />
     <state x="3046" y="175" key="SettingsEditor/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1590978725658" />
-    <state x="3046" y="176" key="SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596437751612" />
+    <state x="3046" y="176" width="947" height="731" key="SettingsEditor/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1597291049550" />
     <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1596456574318">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="392" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@0.32.2560.1408" timestamp="1590374127635" />
     <state x="3115" y="276" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596456574318" />
-    <state x="3263" y="460" width="513" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588750609223">
-      <screen x="2560" y="0" width="1920" height="1080" />
-    </state>
-    <state x="3263" y="460" width="513" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1588750609223" />
     <state x="3307" y="413" width="903" height="470" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1596437644915">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
     <state x="3307" y="413" width="903" height="470" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.32.2560.1408/2560.0.1920.1080@2560.0.1920.1080" timestamp="1596437644915" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_to_search.coverage" NAME="covid_baidu_news_to_search Coverage Results" MODIFIED="1596506644871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$covid_req.coverage" NAME="covid-data Coverage Results" MODIFIED="1587528095101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_gwyq.coverage" NAME="covid_baidu_news_gwyq Coverage Results" MODIFIED="1596452891932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$covid_data.coverage" NAME="covid-data Coverage Results" MODIFIED="1590980168163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news_yw.coverage" NAME="chinacdc_news_yw Coverage Results" MODIFIED="1589958880615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1596503703838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$covid_news.coverage" NAME="covid-news Coverage Results" MODIFIED="1588572227996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$read_news_to_search.coverage" NAME="read_news_to_search Coverage Results" MODIFIED="1596454173384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$disease_foreign.coverage" NAME="disease_foreign Coverage Results" MODIFIED="1587452535523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$str_test.coverage" NAME="str_test Coverage Results" MODIFIED="1587692668719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$sqlfile.coverage" NAME="sqlfile Coverage Results" MODIFIED="1589341884784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news.coverage" NAME="chinacdc_news Coverage Results" MODIFIED="1590979963888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/covid_19$bs4_test.coverage" NAME="bs4_test Coverage Results" MODIFIED="1587541315493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_data.coverage" NAME="covid-data Coverage Results" MODIFIED="1590980168163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news.coverage" NAME="chinacdc_news Coverage Results" MODIFIED="1590979963888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news.coverage" NAME="covid_baidu_news Coverage Results" MODIFIED="1598595038001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$disease_foreign.coverage" NAME="disease_foreign Coverage Results" MODIFIED="1587452535523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_news.coverage" NAME="covid-news Coverage Results" MODIFIED="1588572227996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$chinacdc_news_yw.coverage" NAME="chinacdc_news_yw Coverage Results" MODIFIED="1589958880615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$str_test.coverage" NAME="str_test Coverage Results" MODIFIED="1587692668719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_gwyq.coverage" NAME="covid_baidu_news_gwyq Coverage Results" MODIFIED="1598594972360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$read_news_to_search.coverage" NAME="read_news_to_search Coverage Results" MODIFIED="1597836936706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_req.coverage" NAME="covid-data Coverage Results" MODIFIED="1587528095101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$covid_baidu_news_to_search.coverage" NAME="covid_baidu_news_to_search Coverage Results" MODIFIED="1597635722054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/covid_19$sqlfile.coverage" NAME="sqlfile Coverage Results" MODIFIED="1589341884784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

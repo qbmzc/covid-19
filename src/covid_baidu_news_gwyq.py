@@ -7,7 +7,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from docx import Document
-
+from docx.shared import Inches
 headers = {
     'Connection': 'keep-alive',
     'Pragma': 'no-cache',
@@ -80,29 +80,29 @@ def get_news(req_url, eventDescription, eventTime, siteName):
     time_local = time.localtime(int(eventTime))
     news_date = time.strftime("%Y-%m-%d %H:%M:%S", time_local)
     # 创建word文档
-    # doc = Document()
-    # doc.add_heading(news_title)
-    # doc.add_paragraph(news_date)
-    # doc.add_paragraph(news_content)
-    news = {
-        'title': str(news_title),
-        'newsDate': str(news_date),
-        'content': str(news_content),
-        'category': '国外疫情',
-        'source': siteName
-    }
-    print(news)
-    search_url = 'http://127.0.0.1:15002/covid/news/save'
-    resp = requests.post(url=search_url, data=json.dumps(news), headers=headers)
-    print(resp.status_code)
-    # for img in data.find_all('img', class_='large'):
-    #     ssrc = img.get('src')
-    #
-    #     print(ssrc)
-    #
-    #     download_img(ssrc)
-    #     doc.add_picture('./img.jpg', width=Inches(5.0), height=Inches(5.0))
-    # doc.save(directory + news_date + "_" + news_title.replace("/", "_") + '.docx')
+    doc = Document()
+    doc.add_heading(news_title)
+    doc.add_paragraph(news_date)
+    doc.add_paragraph(news_content)
+    # news = {
+    #     'title': str(news_title),
+    #     'newsDate': str(news_date),
+    #     'content': str(news_content),
+    #     'category': '国外疫情',
+    #     'source': siteName
+    # }
+    # print(news)
+    # search_url = 'http://127.0.0.1:15002/covid/news/save'
+    # resp = requests.post(url=search_url, data=json.dumps(news), headers=headers)
+    # print(resp.status_code)
+    for img in data.find_all('img', class_='large'):
+        ssrc = img.get('src')
+
+        print(ssrc)
+
+        download_img(ssrc)
+        doc.add_picture('./img.jpg', width=Inches(5.0), height=Inches(5.0))
+    doc.save(directory + news_date + "_" + news_title.replace("/", "_") + '.docx')
     # 标题中 不能存在`/`
 
 
