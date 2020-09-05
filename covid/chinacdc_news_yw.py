@@ -7,8 +7,8 @@ import time
 import random
 
 base_url = 'http://www.chinacdc.cn/'
-gwxx_url = base_url + 'gwxx'
-base_directory = '/data/Space/covid/cdc/'
+gwxx_url = base_url + 'yw_9324'
+base_directory = '/data/Space/covid/cdc/yw_9324/'
 # 页面
 pape_count = 13
 
@@ -58,16 +58,16 @@ def get_news(req_url):
         doc.add_paragraph(news_date)
         doc.add_paragraph(news_content)
         for img in news_soup.find_all('img'):
-            ssrc = img.get('src')
+            ssrc = img.get('covid')
             if ssrc.find('images') == -1:
                 print(ssrc)
-                real_path_0 = img.get('src').replace('.', '', 1)
+                real_path_0 = img.get('covid').replace('.', '', 1)
                 center_path = a_href.split('/')[1]
                 print(center_path)
                 real_path = gwxx_url + "/" + center_path + real_path_0
                 print(real_path)
                 download_img(real_path)
-                doc.add_picture('/data/Space/covid-19/src/img.jpg', width=Inches(5.0), height=Inches(5.0))
+                doc.add_picture('/data/Space/covid-19/covid/img.png', width=Inches(5.0), height=Inches(5.0))
         doc.save(base_directory + news_date + "_" + title + '.docx')
 
 
@@ -87,7 +87,7 @@ def download_img(image_url):
     }
     r = requests.get(image_url, headers=headers)
     if r.status_code == 200:
-        with open('./img.jpg', 'wb') as f:
+        with open('./img.png', 'wb') as f:
             f.write(r.content)
         print('done')
         time.sleep(random.uniform(0, 2))
