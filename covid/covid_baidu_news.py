@@ -95,10 +95,8 @@ def get_news(req_url, eventDescription, eventTime):
     doc.add_paragraph(news_date)
     doc.add_paragraph(news_content)
     for img in data.find_all('img', class_='large'):
-        ssrc = img.get('covid')
-
+        ssrc = img.get('src')
         print(ssrc)
-
         download_img(ssrc)
         doc.add_picture('./img.jpg', width=Inches(5.0), height=Inches(5.0))
     doc.save(directory + news_date + "_" + news_title + '.docx')

@@ -96,7 +96,7 @@ def get_news(req_url, eventDescription, eventTime, siteName):
     # resp = requests.post(url=search_url, data=json.dumps(news), headers=headers)
     # print(resp.status_code)
     for img in data.find_all('img', class_='large'):
-        ssrc = img.get('covid')
+        ssrc = img.get('src')
 
         print(ssrc)
 

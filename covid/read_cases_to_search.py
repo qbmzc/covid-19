@@ -9,7 +9,7 @@ from docx import Document
 from docx.shared import Inches
 import os
 
-path = "/data/Cong/新增病历/儿科"
+path = "/data/Cong/新增病历/肿瘤科"
 
 
 def save_to_elasticsearch(news_title, news_date, news_content):
@@ -25,12 +25,12 @@ def save_to_elasticsearch(news_title, news_date, news_content):
     }
     news = {
         'title': str(news_title),
-        'newsDate': str(news_date),
-        'content': str(news_content),
-        'category': '儿科'
+        'recordTime': str(news_date),
+        'content': news_content,
+        'category': '肿瘤科'
     }
     print(news)
-    search_url = 'http://127.0.0.1:15002/covid/news/save'
+    search_url = 'http://127.0.0.1:15002/cases/save'
     resp = requests.post(url=search_url, data=json.dumps(news), headers=headers)
     print(resp.status_code)
 
@@ -41,11 +41,20 @@ def get_news():
         if not os.path.isdir(file):
             print(file)
             doc = Document(path + "/" + file)
-            news_title = doc.paragraphs[0].text
-            news_date = doc.paragraphs[1].text
-            news_content = doc.paragraphs[2].text
-           #save_to_elasticsearch(news_title,news_date,news_content)
-            print(news_title +news_date)
+            counter = 0
+            news_title = ''
+            news_date = ''
+            news_content = []
+            while counter < len(doc.paragraphs):
+                if counter == 0:
+                    news_title = doc.paragraphs[counter].text
+                elif counter == 1:
+                    news_date = doc.paragraphs[counter].text
+                elif len(doc.paragraphs[counter].text) > 0:
+                    news_content.append(doc.paragraphs[counter].text)
+                counter += 1
+            save_to_elasticsearch(news_title, news_date, news_content)
+            print(news_title + news_date)
     # 保存到elasticsearch
     # 创建word文档
 
