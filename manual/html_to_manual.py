@@ -24,7 +24,6 @@ def save_to_elasticsearch(news_title, news_content):
         'Content-Type': 'application/json'
     }
     news = {
-        'id': '6',
         'title': str(news_title),
         'content': news_content,
     }
