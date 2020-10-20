@@ -21,18 +21,17 @@ def save_to_elasticsearch(id, news_title, news_content):
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         'Accept-Encoding': 'gzip, deflate',
         'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6',
-        'Content-Type': 'application/json',
-        'Content-Lenth':'102400'
+        'Content-Type': 'application/json'
     }
     news = {
-        "id": str(1),
+        "id": str(id),
         "title": str(news_title),
         "content": news_content,
         "category": "高血压"
     }
     print(json.dumps(news))
-    search_url = 'http://127.0.0.1:13001/indexManual'
-    resp = requests.post(
+    search_url = 'http://192.168.9.100:9200/manual/_doc/'+str(id)
+    resp = requests.put(
         url=search_url, data=json.dumps(news), headers=headers)
     print(resp.status_code)
 
