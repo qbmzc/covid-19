@@ -27,7 +27,7 @@ def save_to_elasticsearch(news_title, news_date, news_content):
         'title': str(news_title),
         'recordTime': str(news_date),
         'content': news_content,
-        'category': '肿瘤科'
+        'category': '高血压'
     }
     print(news)
     search_url = 'http://127.0.0.1:15002/cases/save'

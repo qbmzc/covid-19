@@ -9,8 +9,9 @@ from docx import Document
 from docx.shared import Inches
 import os
 
-path = "/data/Cong/manual-source"
+#path = "/data/Cong/es"
 
+## 将文档导入es中进行搜索
 
 def save_to_elasticsearch(id, news_title, news_content):
     headers = {
@@ -30,15 +31,34 @@ def save_to_elasticsearch(id, news_title, news_content):
         "category": "高血压"
     }
     print(json.dumps(news))
-    search_url = 'http://192.168.9.100:9200/manual/_doc/'+str(id)
+    search_url = 'http://60.205.159.92:9200/manual/_doc/'+str(id)
     resp = requests.put(
         url=search_url, data=json.dumps(news), headers=headers)
     print(resp.status_code)
 
 
+def get_case_from_docx():
+    files = os.listdir("/data/Cong/manual_docx")
+    path= "/data/Cong/manual_docx"
+    i=1
+    for file in files:
+        if not os.path.isdir(file):
+            print(file)
+            (file_name, extension) = os.path.splitext(file)
+            doc = Document(path + "/" + file)
+            counter = 0
+            news_content = []
+            while counter < len(doc.paragraphs):
+                news_content.append(doc.paragraphs[counter].text)
+                counter += 1
+            save_to_elasticsearch(i, file_name, news_content)
+            print(str(i)+file_name)
+            i=i+1
+
 def get_news():
-    files = os.listdir(path)
-    i = 1
+    path = '/data/Cong/manual_txt'
+    files = os.listdir("/data/Cong/manual_txt")
+    i = 12
     for file in files:
         if not os.path.isdir(file):
             print(file)
@@ -57,4 +77,5 @@ def get_news():
 
 
 if __name__ == '__main__':
+    get_case_from_docx() # 11
     get_news()
